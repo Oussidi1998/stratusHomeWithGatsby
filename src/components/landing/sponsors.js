@@ -17,6 +17,7 @@ class Sponsors extends React.Component {
           slidesToShow="3"
           withoutControls="true"
           cellAlign="center"
+          wrapAround="true"
         >
           <img src={spo1} />
           <img src={spo2} />
