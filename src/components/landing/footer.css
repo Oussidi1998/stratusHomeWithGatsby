@@ -1,0 +1,55 @@
+.footer {
+  background: #292e31;
+  color: white;
+  padding-top: 200px;
+  font-family: "lato", "roboto", "verdana", sans-serif;
+}
+.copyright {
+  background: #23272a;
+  color: #d2d2d2;
+  padding: 15px;
+  margin-top: 15px;
+}
+.material-icons {
+  position: relative;
+  top: 5px;
+}
+.footer a {
+  color: #d2d2d2;
+}
+.footer a:hover {
+  color: white;
+}
+.copyright a {
+  font-size: 16px;
+}
+.widget-inner p,
+.recent-posts {
+  font-size: 16px;
+}
+.widget-inner .widget-title {
+  font-family: "lato", "roboto", "verdana", sans-serif;
+  font-size: 18px;
+  border-bottom: 1px solid gray;
+  padding-bottom: 10px;
+}
+.widget-inner .th-contact-info-widget p {
+  margin: 2px 0;
+}
+.recent-posts {
+  list-style-position: outside;
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+}
+.recent-posts a {
+  display: block;
+}
+.footer .recent-posts .post-date {
+  font-size: 12px;
+  color: #848484;
+}
+.widget-inner .payMethod {
+  border: 1px solid white;
+  padding: 10px;
+}

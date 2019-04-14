@@ -1,0 +1,44 @@
+.Pageheader,
+.PageheaderScroll {
+  margin: 0 auto;
+  max-width: 90%;
+  padding: 0.3rem;
+  font-size: 0.9rem;
+}
+
+.Pageheader .logo,
+.PageheaderScroll .logo {
+  width: 130px;
+  position: relative;
+}
+.Pageheader .purchase,
+.PageheaderScroll .purchase {
+  border: 1px solid black;
+  padding: 0.4rem 0.7rem;
+  border-radius: 30px;
+}
+.Pageheader .material-icons,
+.PageheaderScroll .material-icons {
+  position: relative;
+  top: 0;
+}
+
+.PageheaderScroll {
+  background: #252b2d;
+  max-width: 100%;
+  position: fixed;
+  width: 100%;
+  z-index: 200;
+}
+.PageheaderScroll .nav {
+  max-width: 90%;
+  margin: 0 auto;
+  color: white;
+  padding-bottom: 0px;
+}
+.PageheaderScroll .ml-auto a {
+  color: white !important;
+}
+.PageheaderScroll .purchase {
+  border: 1px solid white;
+}
