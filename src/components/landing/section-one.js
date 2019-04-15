@@ -20,7 +20,7 @@ const Section_one = () => {
           </p>
         </ReactWOW>
       </div>
-      <div className="item">
+      <div className="item d-sm-none d-none d-md-block">
         <Container>
           <Row
             style={{
@@ -40,6 +40,30 @@ const Section_one = () => {
                   pellentesque.
                 </p>
               </ReactWOW>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="item d-block d-md-none">
+        <Container>
+          <Row
+            style={{
+              display: `flex`,
+              alignItems: `center`,
+            }}
+          >
+            <Col xs="12" md="6">
+              <ReactWOW animation="fadeInRight">
+                <h4>INTUITIVE</h4>
+                <h2>Get setup quickly</h2>
+                <p>
+                  Vestibulum fringilla mauris ipsum, vel tristique libero
+                  pellentesque.
+                </p>
+              </ReactWOW>
+            </Col>
+            <Col xs="12" md="6">
+              <img src={setup_quickly} alt="Get setup quickly" />
             </Col>
           </Row>
         </Container>
@@ -68,7 +92,7 @@ const Section_one = () => {
           </Row>
         </Container>
       </div>
-      <div className="item">
+      <div className="item d-sm-none d-none d-md-block">
         <Container>
           <Row
             style={{
@@ -88,6 +112,30 @@ const Section_one = () => {
                   nulla.
                 </p>
               </ReactWOW>
+            </Col>
+          </Row>
+        </Container>
+      </div>
+      <div className="item d-block d-md-none">
+        <Container>
+          <Row
+            style={{
+              display: `flex`,
+              alignItems: `center`,
+            }}
+          >
+            <Col xs="12" md="6">
+              <ReactWOW animation="fadeInRight">
+                <h4>WEB AND APPS</h4>
+                <h2>Accessible on all your devices</h2>
+                <p>
+                  Fusce non metus et sem malesuada imper diet ac eget odio
+                  nulla.
+                </p>
+              </ReactWOW>
+            </Col>
+            <Col xs="12" md="6">
+              <img src={accessible} alt="Accessible on all your devices" />
             </Col>
           </Row>
         </Container>

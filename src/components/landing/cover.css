@@ -2,10 +2,16 @@
   background: url("../../images/coverbg.png") no-repeat;
   background-position: 100% 0%;
 }
-.section1Cover {
+.cover {
   padding: 30px 0;
   font-size: 22px;
 }
+.coverFirstRow {
+  padding: 30px 0;
+  font-size: 22px;
+  margin-bottom: 50px;
+}
+
 .coverButton,
 .coverButton:hover {
   background: #01b88e;
@@ -14,8 +20,17 @@
   border-radius: 40px;
   cursor: pointer;
 }
-.coverButton:nth-last-child(1) {
-  background: white;
-  color: #01b88e;
+.cover .formGetStarted {
+  position: relative;
+}
+.cover .emailInput {
+  position: absolute;
+  left: 0;
   border: 2px solid #01b88e;
+  border-radius: 40px;
+  padding: 15px 30px;
+}
+.cover .coverButton {
+  position: absolute;
+  right: 0;
 }

@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col, Button } from "reactstrap"
+import { Container, Row, Col, Button, FormGroup, Form, Input } from "reactstrap"
 import ReactWOW from "react-wow"
 import cover from "../../images/cover.png"
 import "./cover.css"
@@ -16,7 +16,7 @@ const Cover = () => {
         <Row>
           <Col sm="12" md="6">
             <ReactWOW animation="fadeInUp">
-              <div className="section1Cover">
+              <div className="coverFirstRow">
                 <h1
                   style={{
                     fontFamily: `"lato", "roboto", "verdana", sans-serif`,
@@ -30,18 +30,24 @@ const Cover = () => {
                   your project management and get back to your life’s work.
                 </p>
                 <p>
-                  <Button className="coverButton" color="primary">
-                    Get Started
-                  </Button>
-                  &nbsp;&nbsp;&nbsp;
-                  <Button className="coverButton" color="primary">
-                    Learn More
-                  </Button>
+                  <Form className="formGetStarted">
+                    <FormGroup>
+                      <Input
+                        type="email"
+                        name="email"
+                        placeholder="Your Email"
+                        className="emailInput"
+                      />
+                    </FormGroup>
+                    <Button className="coverButton" color="primary">
+                      Get Started
+                    </Button>
+                  </Form>
                 </p>
               </div>
             </ReactWOW>
           </Col>
-          <Col sm="12" md="6">
+          <Col sm="12" md="6" className="d-none d-sm-block">
             <ReactWOW animation="fadeIn">
               <img src={cover} />
             </ReactWOW>

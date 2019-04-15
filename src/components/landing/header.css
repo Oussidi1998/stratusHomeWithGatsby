@@ -10,6 +10,7 @@
 .PageheaderScroll .logo {
   width: 130px;
   position: relative;
+  top: 10px;
 }
 .Pageheader .purchase,
 .PageheaderScroll .purchase {
