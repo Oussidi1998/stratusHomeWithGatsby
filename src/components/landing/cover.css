@@ -23,6 +23,12 @@
 .cover .formGetStarted {
   position: relative;
 }
+
+@media (min-width: 1025px) {
+  .cover .formGetStarted {
+    max-width: 70%;
+  }
+}
 .cover .emailInput {
   position: absolute;
   left: 0;
