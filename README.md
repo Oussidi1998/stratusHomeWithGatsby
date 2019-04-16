@@ -6,7 +6,7 @@
 
     ```sh
     # create a new Gatsby site using the default starter
-    gatsby new my-default-starter https://github.com/gatsbyjs/gatsby-starter-default
+    gatsby new oussidi_stratus https://github.com/Oussidi1998/stratusHomeWithGatsby
     ```
 
 1.  **Start developing.**
