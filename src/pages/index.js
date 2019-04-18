@@ -5,6 +5,7 @@ import SEO from "../components/seo"
 import Cover from "../components/landing/cover"
 import Section_one from "../components/landing/section-one"
 import ButtomGreenCard from "../components/landing/buttomGreenCard"
+import WhatInBox from "../components/landing/WhatInBox"
 
 const IndexPage = () => (
   <Layout>
@@ -12,6 +13,7 @@ const IndexPage = () => (
     <Cover />
     <Section_one />
     <ButtomGreenCard />
+    <WhatInBox />
   </Layout>
 )
 

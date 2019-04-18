@@ -3,6 +3,7 @@ import "./header.css"
 import logo from "../../images/logo.png"
 import logoWhite from "../../images/logoWhite.png"
 import { Link } from "gatsby"
+import { Link as LinkScroll, animateScroll as scroll } from "react-scroll"
 
 import {
   Collapse,
@@ -12,10 +13,6 @@ import {
   Nav,
   NavItem,
   NavLink,
-  UncontrolledDropdown,
-  DropdownToggle,
-  DropdownMenu,
-  DropdownItem,
 } from "reactstrap"
 
 class Header extends React.Component {
@@ -54,55 +51,25 @@ class Header extends React.Component {
               />
             </Link>
           </NavbarBrand>
-          <NavbarToggler onClick={this.toggle} />
-          <Collapse className='navbarToggleBtn' isOpen={this.state.isOpen} navbar>
-            <Nav className="ml-auto" navbar>
-              <Link to="/">
-                <NavItem>
-                  <NavLink>Home</NavLink>
-                </NavItem>
-              </Link>
-              <Link to="/pages">
-                <NavItem>
-                  <NavLink>Pages</NavLink>
-                </NavItem>
-              </Link>
-              <Link to="/portfolio/">
-                <NavItem>
-                  <NavLink>Portfolio</NavLink>
-                </NavItem>
-              </Link>
-              <Link to="/features/">
-                <NavItem>
-                  <NavLink>Features</NavLink>
-                </NavItem>
-              </Link>
-              <Link to="/pages/">
-                <NavItem>
-                  <NavLink>Blog</NavLink>
-                </NavItem>
-              </Link>
-              <Link to="/pages/">
-                <NavItem>
-                  <NavLink>Shop</NavLink>
-                </NavItem>
-              </Link>
-              <Link to="/purchase">
+
+          <Nav className="ml-auto" navbar>
+            <Link>
+              <LinkScroll
+                activeClass="active"
+                to="cover"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
                 <NavItem>
                   <NavLink>
-                    <span className="purchase">Purchase</span>
+                    <span className="purchase">Join Our Beta</span>
                   </NavLink>
                 </NavItem>
-              </Link>
-              <Link to="/cart">
-                <NavItem>
-                  <NavLink>
-                    <span className="material-icons">shopping_basket</span>
-                  </NavLink>
-                </NavItem>
-              </Link>
-            </Nav>
-          </Collapse>
+              </LinkScroll>
+            </Link>
+          </Nav>
         </Navbar>
       </div>
     )

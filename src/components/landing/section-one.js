@@ -1,6 +1,5 @@
 import React from "react"
 import { Row, Col, Container } from "reactstrap"
-import ReactWOW from "react-wow"
 import "./sections.css"
 import setup_quickly from "../../images/setup_quickly.png"
 import build_coll from "../../images/build_coll.png"
@@ -11,14 +10,13 @@ const Section_one = () => {
   return (
     <section className="section-one">
       <div className="section-title text-center">
-        <ReactWOW animation="fadeIn">
-          <h1>Powerful, yet simple</h1>
-          <p>
-            Everything has been intentionally designed to include the features
-            you want,
-            <br /> right where you need them - without being overly complicated.
-          </p>
-        </ReactWOW>
+        <h1>The world’s first skeuomorphic sales platform</h1>
+        <p>
+          More than a simple messaging platform - We built Sappien to offfer
+          online salespeople <br />
+          everything that they need to engage, convert and retain their
+          customers.
+        </p>
       </div>
       <div className="item d-sm-none d-none d-md-block">
         <Container>
@@ -32,14 +30,14 @@ const Section_one = () => {
               <img src={setup_quickly} alt="Get setup quickly" />
             </Col>
             <Col xs="12" md="6">
-              <ReactWOW animation="fadeInRight">
-                <h4>INTUITIVE</h4>
-                <h2>Get setup quickly</h2>
-                <p>
-                  Vestibulum fringilla mauris ipsum, vel tristique libero
-                  pellentesque.
-                </p>
-              </ReactWOW>
+              <h4>Personalized Sales</h4>
+              <h2>Adapt your online sales to each customer</h2>
+              <p>
+                Sappien gives you all the tools that you need to adapt your
+                sales approach to each customer. Direct your customers to the
+                right product, Generate one-time coupons, Build Custom bundles
+                on the fly, and more... directly from chat.
+              </p>
             </Col>
           </Row>
         </Container>
@@ -53,14 +51,14 @@ const Section_one = () => {
             }}
           >
             <Col xs="12" md="6">
-              <ReactWOW animation="fadeInRight">
-                <h4>INTUITIVE</h4>
-                <h2>Get setup quickly</h2>
-                <p>
-                  Vestibulum fringilla mauris ipsum, vel tristique libero
-                  pellentesque.
-                </p>
-              </ReactWOW>
+              <h4>Personalized Sales</h4>
+              <h2>Adapt your online sales to each customer</h2>
+              <p>
+                Sappien gives you all the tools that you need to adapt your
+                sales approach to each customer. Direct your customers to the
+                right product, Generate one-time coupons, Build Custom bundles
+                on the fly, and more... directly from chat.
+              </p>
             </Col>
             <Col xs="12" md="6">
               <img src={setup_quickly} alt="Get setup quickly" />
@@ -77,14 +75,14 @@ const Section_one = () => {
             }}
           >
             <Col xs="12" md="6">
-              <ReactWOW animation="fadeInLeft">
-                <h4>WORK TOGETHER</h4>
-                <h2>Built for collaboration</h2>
-                <p>
-                  Quisque vehicula, massa vel finibus gravida, velit dolor
-                  ultrices turpis at.
-                </p>
-              </ReactWOW>
+              <h4>Personalized Sales</h4>
+              <h2>Adapt your online sales to each customer</h2>
+              <p>
+                Sappien gives you all the tools that you need to adapt your
+                sales approach to each customer. Direct your customers to the
+                right product, Generate one-time coupons, Build Custom bundles
+                on the fly, and more... directly from chat.
+              </p>
             </Col>
             <Col xs="12" md="6">
               <img src={build_coll} alt="Build With Collaboration" />
@@ -104,14 +102,14 @@ const Section_one = () => {
               <img src={accessible} alt="Accessible on all your devices" />
             </Col>
             <Col xs="12" md="6">
-              <ReactWOW animation="fadeInRight">
-                <h4>WEB AND APPS</h4>
-                <h2>Accessible on all your devices</h2>
-                <p>
-                  Fusce non metus et sem malesuada imper diet ac eget odio
-                  nulla.
-                </p>
-              </ReactWOW>
+              <h4>Improved targeting</h4>
+              <h2>Never lose an interested customer again!</h2>
+              <p>
+                Get a global overview of what your visitors are doing on your
+                website. Know what customers are most interested in what you
+                offer. Get informed you when the time is right to approach a
+                customer.
+              </p>
             </Col>
           </Row>
         </Container>
@@ -125,14 +123,14 @@ const Section_one = () => {
             }}
           >
             <Col xs="12" md="6">
-              <ReactWOW animation="fadeInRight">
-                <h4>WEB AND APPS</h4>
-                <h2>Accessible on all your devices</h2>
-                <p>
-                  Fusce non metus et sem malesuada imper diet ac eget odio
-                  nulla.
-                </p>
-              </ReactWOW>
+              <h4>Improved targeting</h4>
+              <h2>Never lose an interested customer again!</h2>
+              <p>
+                Get a global overview of what your visitors are doing on your
+                website. Know what customers are most interested in what you
+                offer. Get informed you when the time is right to approach a
+                customer.
+              </p>
             </Col>
             <Col xs="12" md="6">
               <img src={accessible} alt="Accessible on all your devices" />
@@ -149,14 +147,14 @@ const Section_one = () => {
             }}
           >
             <Col xs="12" md="6">
-              <ReactWOW animation="fadeInLeft">
-                <h4>AVAILABLE 24/7</h4>
-                <h2>Backed by an amazing support team</h2>
-                <p>
-                  Sed iaculis eleifend posuere. In mattis luctus cursus duis
-                  lacus risus gravida.
-                </p>
-              </ReactWOW>
+              <h4>Detailed reporting</h4>
+              <h2>All the data that you need to improve your sales</h2>
+              <p>
+                Give a voice to your customers and let them rate your sales
+                reps. Evaluate the ROI of your online sales, identify your best
+                performing sales reps and determining your most effective sales
+                strategies.
+              </p>
             </Col>
             <Col xs="12" md="6">
               <img src={backed_team} alt="Backed by an amazing support team" />
